@@ -5,35 +5,128 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Company Inc</title>
+    <style>
+        * {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #212121;
+            color: white;
+        }
+        
+        a {
+            text-decoration: none;
+            color: lightblue;
+        }
+        
+        p {
+            padding: 10px 30px;
+            line-height: 2rem;
+        }
+        
+        .card {
+            background-color: #333;
+        }
+        
+        .paragraph {
+            padding: 20px;
+            font-size: 1.2rem;
+            width: 50%;
+            margin: auto;
+            border: 2px white solid;
+            border-radius: 1.2rem;
+            margin-top: 50px;
+        }
+        
+        h3 {
+            font-size: 1.5rem;
+            width: 100%;
+            margin: auto;
+            padding-left: 20px;
+        }
+        
+        .links {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        
+        .banner {
+            width: 90%;
+            display: flex;
+            margin: auto;
+        }
+        
+        .footer {
+            display: flex;
+            flex: wrap;
+            width: 100%;
+            justify-content: space-around;
+            margin: 20px;
+            margin: auto;
+            padding: 0 0 10px 0;
+            font-size: 1.3rem;
+        }
+    </style>
 </head>
 
 <body>
     <div class="body">
         <div class="header">
             <div class="links">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Contact</a>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
             </div>
         </div>
         <div class="company-info">
             <div class="company-image">
-                <img width="100%" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo1.jpg" />
+                <img class="banner" src="https://placeholder.com/wp-content/uploads/2018/10/placeholder-1.png" />
             </div>
-            <div class="company-summary">
-                Summary Placeholder - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem consequuntur sint quisquam recusandae maiores placeat iure voluptates, voluptatibus expedita facilis non incidunt, reprehenderit unde fuga dolorem sed nemo laudantium?
+            <div class="home paragraph card">
+                <a name="home"></a>
+                <p class="card">
+                    Summary Placeholder - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem consequuntur sint quisquam recusandae maiores placeat iure voluptates, voluptatibus expedita facilis non incidunt, reprehenderit unde fuga dolorem sed nemo laudantium?
+                </p>
+                <p class="card">
+                    Summary Placeholder - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem consequuntur sint quisquam recusandae maiores placeat iure voluptates, voluptatibus expedita facilis non incidunt, reprehenderit unde fuga dolorem sed nemo laudantium?
+                </p>
+                <p class="card">
+                    Summary Placeholder - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem consequuntur sint quisquam recusandae maiores placeat iure voluptates, voluptatibus expedita facilis non incidunt, reprehenderit unde fuga dolorem sed nemo laudantium?
+                </p>
             </div>
-            <div class="company-summary">
-                <h3>About</h3>
-                Summary Placeholder - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem consequuntur sint quisquam recusandae maiores placeat iure voluptates, voluptatibus expedita facilis non incidunt, reprehenderit unde fuga dolorem sed nemo laudantium?
+
+            <div class="about paragraph card">
+                <a name="about"></a>
+                <h3 class="card">About</h3>
+                <p class="card">
+                    Summary Placeholder - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem consequuntur sint quisquam recusandae maiores placeat iure voluptates, voluptatibus expedita facilis non incidunt, reprehenderit unde fuga dolorem sed nemo laudantium?
+                </p>
+                <p class="card">
+                    Summary Placeholder - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem consequuntur sint quisquam recusandae maiores placeat iure voluptates, voluptatibus expedita facilis non incidunt, reprehenderit unde fuga dolorem sed nemo laudantium?
+                </p>
+                <p class="card">
+                    Summary Placeholder - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem consequuntur sint quisquam recusandae maiores placeat iure voluptates, voluptatibus expedita facilis non incidunt, reprehenderit unde fuga dolorem sed nemo laudantium?
+                </p>
             </div>
-            <div class="company-summary">
-                <h3>Contact</h3>
-                Summary Placeholder - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem consequuntur sint quisquam recusandae maiores placeat iure voluptates, voluptatibus expedita facilis non incidunt, reprehenderit unde fuga dolorem sed nemo laudantium?
+            <div class="contact paragraph card">
+                <a name="contact"></a>
+                <h3 class="card">Contact</h3>
+                <p class="card">
+                    Summary Placeholder - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem consequuntur sint quisquam recusandae maiores placeat iure voluptates, voluptatibus expedita facilis non incidunt, reprehenderit unde fuga dolorem sed nemo laudantium?
+                </p>
+                <p class="card">
+                    Summary Placeholder - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem consequuntur sint quisquam recusandae maiores placeat iure voluptates, voluptatibus expedita facilis non incidunt, reprehenderit unde fuga dolorem sed nemo laudantium?
+                </p>
+                <p class="card">
+                    Summary Placeholder - Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem consequuntur sint quisquam recusandae maiores placeat iure voluptates, voluptatibus expedita facilis non incidunt, reprehenderit unde fuga dolorem sed nemo laudantium?
+                </p>
             </div>
             <br />
             <div class="footer">
-                Footer - Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium vel eum cupiditate, quia laborum veniam voluptates deleniti praesentium perferendis id iure quisquam ullam architecto, tempore iusto magni magnam expedita commodi?
+                <div class="email">📨 test@test.com</div>
+                <div class="phone">☎️ 555.555.5555</div>
+                <div class="login">👤 Logged In</div>
             </div>
         </div>
     </div>
