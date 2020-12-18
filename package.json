@@ -1,0 +1,27 @@
+{
+    "name": "get-started",
+    "version": "1.0.0",
+    "description": "Express App Tutorial`",
+    "main": "server.js",
+    "scripts": {
+        "serve": "nodemon serve",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/716green/getting-started.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/716green/getting-started/issues"
+    },
+    "homepage": "https://github.com/716green/getting-started#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
