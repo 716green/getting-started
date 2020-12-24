@@ -37,6 +37,29 @@ console.table({
     const: myNewConstant + ' (Same as before)'
 })
 
+console.log({
+    varVariable,
+})
+
+var varVariable = 'var'
+let letVariable = 'let'
+const constVariable = 'covarVariablenst'
+
+let myArray = ['start', 'dog', 'cat', 10, '10', 20, '20', 'aardvark', 'bird', 30, '30', 'end']
+console.log(myArray)
+console.log(myArray[0])
+console.log(myArray.length)
+console.log(myArray[myArray.length - 1])
+let sortedArray = myArray.sort()
+console.log(sortedArray)
+let doesItMatch = sortedArray[0] == sortedArray[1]
+let doesItMatchStrict = sortedArray[0] === sortedArray[1]
+console.log(doesItMatch ? `${sortedArray[0]} == ${sortedArray[1]}` : 'No Match')
+console.log(doesItMatch)
+console.log(doesItMatchStrict ? 'match' : `${sortedArray[0]} === ${sortedArray[1]}`)
+console.log(doesItMatchStrict)
+myArray.forEach((item, i) => console.log('item ', i, ' is ', item))
+
 app.get('/', (req, res) => {
     res.send("hello world")
 })
